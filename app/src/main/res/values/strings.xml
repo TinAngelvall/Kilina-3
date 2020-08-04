@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">Kilina-3</string>
     <string name="lastName">Фамилия</string>
+    <string name="personalInformation">Личная информация</string>
     <string name="middleName">Имя</string>
     <string name="firstName">Отчество</string>
     <string name="age">Возраст</string>
     <string name="save">Сохранить</string>
-    <string name="pressure">Информация\n о давлении</string>
-    <string name="vitals">Информация\n о жизненных показателях</string>
-    <string name="name">Комплексная система мониторинга здоровья\n
-    Автор: Килина В.А.</string>
+    <string name="pressure">Давление</string>
+    <string name="vitals">Жизненные показатели</string>
+    <string name="name"> Комплексная система мониторинга здоровья\n Автор: Килина В.А.</string>
+    <string name="ourPressure">Ваше давление</string>
+    <string name="upperPressure">Верхнее давление</string>
+    <string name="lowerPressure">Нижнее давление</string>
+    <string name="pulse">Пульс</string>
+    <string name="tachycardia">Тахикардия</string>
+    <string name="data">Дата замера</string>
+    <string name="weight">Вес</string>
+    <string name="steps">Количество шагов</string>
+    <string name="clean">Очистить</string>
+    <string name="message">Введите корректные данные!</string>
+    <string name="messageClean">Пустые поля!</string>
 </resources>

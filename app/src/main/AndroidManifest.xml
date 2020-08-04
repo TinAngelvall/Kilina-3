@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_life_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".VitalsInfo"></activity>
+        <activity android:name=".InfoPressure" />
         <activity android:name=".StartWindow">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
