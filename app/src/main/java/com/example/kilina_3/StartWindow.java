@@ -30,7 +30,7 @@ public class StartWindow extends AppCompatActivity {
     private EditText firstNameEtx;
     private EditText ageEtx;
     private TextView textView;
-        private static final String TAG = "Мои записи";
+    private static final String TAG = "Мои записи";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

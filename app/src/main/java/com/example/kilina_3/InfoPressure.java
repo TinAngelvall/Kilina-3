@@ -12,7 +12,9 @@ import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 public class InfoPressure extends AppCompatActivity {
@@ -38,6 +40,8 @@ public class InfoPressure extends AppCompatActivity {
 
     private void initViews() {
 
+        Calendar calendar = new GregorianCalendar();
+
         saveBtn = findViewById(R.id.save);
         cleanBtn = findViewById(R.id.clean);
         upperPressureEtx = findViewById(R.id.upperPressure);
@@ -57,8 +61,7 @@ public class InfoPressure extends AppCompatActivity {
                             Integer.parseInt(lowerPressureEtx.getText().toString()),
                             Integer.parseInt(pulseEtx.getText().toString()),
                             Integer.parseInt(tachycardiaEtx.getText().toString()),
-                            Integer.parseInt(dataEtx.getText().toString()))); //НУЖНО ДОРАБОТАТЬ
-                      //      dateFormat.parse(dataEtx);
+                            Integer.parseInt(dataEtx.getText().toString())));
                 } catch (Exception ex) {
                     Toast.makeText(InfoPressure.this, R.string.message, Toast.LENGTH_LONG).show();
                     Log.e(TAG, "Ошибка при вводе значений давления");

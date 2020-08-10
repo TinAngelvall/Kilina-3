@@ -88,7 +88,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:hint="@string/data"
-            android:inputType="number"
+            android:inputType="datetime"
             android:textColorHint="@color/textColorHint" />
 
         <TextView
@@ -121,9 +121,9 @@
             android:textColor="@color/textColor" />
     </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="8dp" />
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp" />
+</LinearLayout>

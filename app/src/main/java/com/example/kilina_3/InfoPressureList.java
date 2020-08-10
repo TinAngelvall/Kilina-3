@@ -7,9 +7,9 @@ public class InfoPressureList {
     private int lowerPressure;
     private int pulse;
     private int tachycardia;
-    private Date date;
+    private int date;
 
-    public InfoPressureList(int upperPressure, int lowerPressure, int pulse, int tachycardia, int data) {
+    public InfoPressureList(int upperPressure, int lowerPressure, int pulse, int tachycardia, int date) {
         this.upperPressure = upperPressure;
         this.lowerPressure = lowerPressure;
         this.pulse = pulse;
@@ -49,11 +49,11 @@ public class InfoPressureList {
         this.tachycardia = tachycardia;
     }
 
-    public Date getDate() {
+    public int getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(int date) {
         this.date = date;
     }
 
